@@ -385,6 +385,7 @@ header {
     line-height: 48px;
     color: #2c3738;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .pricing-subtitle {
@@ -414,14 +415,17 @@ header {
     background: linear-gradient(180deg, #77101c 0%, #77101c 100%);
     color: white;
     border: none;
+    border-radius: 8px;
 }
 
 .toggle-btn.inactive {
+    border-radius: 8px;
     background-color: white;
     color: #2c3738;
     border: 1px solid;
     border-image-source: linear-gradient(180deg, #77101c 0%, #77101c 100%);
     border-image-slice: 1;
+    
 }
 
 .pricing-cards {
@@ -430,6 +434,7 @@ header {
     gap: 30px;
     margin-bottom: 40px;
     position: relative;
+    
 }
  
 .pricing-card {
