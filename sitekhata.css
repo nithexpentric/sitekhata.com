@@ -239,8 +239,8 @@ header {
     flex-direction: column;
 }
 
-.feature-card:nth-child(2) {
-    border: 1px solid;
+.feature-card:nth-child(1) {
+    border: 0px solid;
     border-image-source: linear-gradient(180deg, #77101c 0%, #77101c 100%);
     border-image-slice: 1;
 }
